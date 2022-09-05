@@ -1,13 +1,19 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@font-face {
+  font-family: 'IRANSansX-Light';
+  src: url('./fonts/IRANSansX-Light.woff') format('woff');
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+
+*{
+  font-family: 'IRANSansX-Light';
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  font-family: 'IRANSansX-Light';
+  text-transform: capitalize;
+  overflow-x: hidden;
+  /* background-color: rgb(125, 125, 125); */
 }
